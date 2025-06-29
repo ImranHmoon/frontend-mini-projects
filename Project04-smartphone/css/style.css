@@ -1,0 +1,499 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a:hover,
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+/*banner+menu start*/
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+    padding-top: 74px;
+    margin-left: 70px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navbar-brand img {
+    padding-top: 58px;
+}
+
+.navbar-toggler {
+    margin-top: 45px;
+}
+
+.navigation {
+    background: #fcdb00;
+    padding-bottom: 49px;
+}
+
+
+.bnr_content h3 {
+    font-size: 32px;
+    color: #010101;
+    font-weight: 700;
+    padding-bottom: 23px;
+    padding-top: 130px;
+}
+
+.bnr_content h5 {
+    font-size: 20px;
+    color: #3f433d;
+    padding-bottom: 24px;
+    padding-right: 60px;
+}
+
+.bnr_content p {
+    font-size: 16px;
+    color: #555555;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+
+.bnr_content img {
+    margin-left: 40px;
+}
+
+
+.bnr_right img {
+    margin-left: 250px;
+    margin-top: 68px;
+}
+
+.slid_img img {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+/*banner+menu end*/
+/*feature section start */
+.feature {
+    padding-bottom: 77px;
+}
+
+.heading h4 {
+    color: #010101;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 19px;
+    padding-top: 120px;
+}
+
+.heading p {
+    color: #313841;
+    font-size: 20px;
+    padding: 0px 140px 92px;
+
+}
+
+.fture_content {
+    padding-left: 36px;
+    padding-bottom: 87px;
+}
+
+.fture_content h4 {
+    color: #010101;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.fture_content p {
+    color: #a7a7a7;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-right: 40px;
+}
+
+
+
+/*feature section end */
+
+/*footer section start */
+
+.footer {
+    background: #010101;
+    padding-top: 95px;
+    padding-bottom: 140px;
+}
+
+.footer_up h3 {
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 18px;
+}
+
+.footer_up p {
+    color: #898989;
+    font-size: 20px;
+    padding: 0px 180px 41px;
+
+}
+
+.footer_up input {
+    height: 50px;
+    width: 580px;
+    padding-left: 17px;
+}
+
+
+.btn {
+    padding-left: 20px;
+}
+
+.btn button {
+    position: relative;
+    top: -02px;
+    background: #fcdb00;
+    font-size: 16px;
+    color: #010101;
+    font-weight: 700;
+    height: 50px;
+    width: 126px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 0px;
+
+}
+
+.social_icon {
+    padding-top: 80px;
+    margin-left: 400px;
+}
+
+.social_icon ul li {
+    background: #fcdb00;
+    height: 47px;
+    width: 47px;
+    justify-content: center;
+    align-content: center;
+    background: #fcdb00;
+    margin-left: 15px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.social_icon li a {
+    color: #000;
+
+}
+
+.social_icon li i {
+    position: relative;
+    top: 41%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+}
+
+.footer_down {
+    padding-top: 131px;
+}
+
+.footdown_cont h3 {
+    color: #efefef;
+    font-size: 16px;
+    padding-right: 100px;
+}
+
+.footdown_cont h4 {
+    color: #efefef;
+    font-size: 16px;
+    padding-right: 60px;
+}
+
+.footdown_cont h5 {
+    color: #efefef;
+    font-size: 16px;
+
+}
+
+.footdown_cont p {
+    color: #efefef;
+    font-size: 16px;
+
+}
+
+.foot_right p {
+    color: #efefef;
+    font-size: 16px;
+}
+
+.foot_right a {
+    color: #efefef;
+
+}
+
+
+/*footer section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsiv section start */
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    ...
+}
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* banner start*/
+
+
+    .bnr_right img {
+        margin-left: 180px;
+        margin-top: 60px;
+    }
+
+    .slid_img img {
+        margin-top: 40px;
+        margin-left: 320px;
+    }
+
+    /* banner end*/
+
+    /* footer start*/
+
+
+    .social_icon {
+        padding-top: 40px;
+        margin-left: 200px;
+    }
+
+
+    .btn {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .btn button {
+        position: relative;
+        top: -02px;
+        background: #fcdb00;
+        font-size: 16px;
+        color: #010101;
+        font-weight: 700;
+        height: 50px;
+        width: 110px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        border: 0px;
+
+    }
+
+    /* footer end*/
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* banner start*/
+
+    .bnr_right img {
+        margin-left: 110px;
+        margin-top: 60px;
+    }
+
+    .slid_img img {
+        margin-top: 40px;
+        margin-left: 230px;
+    }
+
+    .heading p {
+        color: #313841;
+        font-size: 20px;
+        padding: 0px 30px 92px;
+    }
+
+    /* banner end*/
+
+    /* footer start*/
+
+    .footer_up input {
+        height: 50px;
+        width: 500px;
+        padding-left: 17px;
+    }
+
+
+    .social_icon {
+        padding-top: 30px;
+        margin-left: 120px;
+    }
+
+    .btn {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .footer_up p {
+        color: #898989;
+        font-size: 20px;
+        padding: 0px 100px 41px;
+
+    }
+
+    .footer_down {
+        padding-top: 70px;
+    }
+
+    /* footer end*/
+
+
+
+
+
+
+
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /* banner start*/
+
+    .bnr_right img {
+        margin-left: 90px;
+        margin-top: 60px;
+    }
+
+    .slid_img img {
+        margin-top: 40px;
+        margin-left: 210px;
+    }
+
+    .heading p {
+        color: #313841;
+        font-size: 20px;
+        padding: 0px 30px 92px;
+    }
+
+    /* banner end*/
+
+
+    /* footer start*/
+
+    .footer_up input {
+        height: 50px;
+        width: 400px;
+        padding-left: 17px;
+    }
+
+
+    .social_icon {
+        padding-top: 20px;
+        margin-left: 90px;
+    }
+
+    .btn {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .footer_up p {
+        color: #898989;
+        font-size: 20px;
+        padding: 0px 100px 41px;
+
+    }
+
+    .footer_down {
+        padding-top: 70px;
+    }
+
+    /* footer end*/
+
+
+
+
+
+
+}
+
+
+
+
+/*Responsiv section end */
